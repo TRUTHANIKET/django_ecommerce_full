@@ -1,0 +1,37 @@
+{% extends 'home/base.html' %}
+
+{% block  content%}
+<div class="container my-5">
+
+    <div class="row pb-5 mb-4">
+{% for product in products %}
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 mx-auto ">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4"><img src="/media/{{product.product_images.first.image}}" alt="" class="img-fluid d-block mx-auto mb-3">
+                        <h5> {{product.product_name}}</h5>
+                        <p class="small text-muted font-italic">{{product.description}}</p>
+                        <h4>${{product.price}}</h4>
+                        <a href="{%url 'get_product' product.slug%}">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </a>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+    
+            {% endfor %}
+    
+    
+
+        </div>
+    
+         </div>
+{% endblock content %}
