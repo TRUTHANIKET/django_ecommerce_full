@@ -1,18 +1,18 @@
 # django_ecommerce_full
  
-#A django Full ecommerce website 
+###A django Full ecommerce website 
 https://d1wrxu8gicsgam.cloudfront.net/wp-content/files/django-logo-big.jpg
 it is not fully completed from the frondend aspects but ( Cool and clean ui i mean) and it contain's Backend stuffs like 
-#token
-#Login
-#Auth
-#Customised Product Upload 
+-token
+-Login
+-Auth
+-Customised Product Upload 
 you can directly upload the product from the admin panel 
 
 
-#Now To Run this 
+###Now To Run this 
 
-First Install 
+##First Install 
 
 '''pip install django'''
 
