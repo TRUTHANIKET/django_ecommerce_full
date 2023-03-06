@@ -13,6 +13,7 @@ you can directly upload the product from the admin panel
 #Now To Run this 
 
 First Install 
+
 '''pip install django'''
 
  #for Linux
@@ -26,7 +27,8 @@ First Install
 
 #for windows
 
-go in this directory ->'''django_ecommerce_full/store/'''
+go in this directory ->
+'''django_ecommerce_full/store/'''
 
 then run this
 
