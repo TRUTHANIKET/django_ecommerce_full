@@ -16,16 +16,24 @@ it is not fully completed from the frondend aspects but ( Cool and clean ui i me
 ### First Install 
 
 
-```pip install django ```
+```
+pip install django 
+```
 
  # For Linux
- ```cd store```
+ ```
+ cd store
+ ```
  
- ``` python3 manage.py runserver ```
+ ```
+ python3 manage.py runserver 
+ ```
  
  If on vps/on specific ip or port you can change the ip to (0.0.0.0:port)<-example no
  
- ```python3 manage.py runserver 0.0.0.0:PORT_NO```
+ ```
+ python3 manage.py runserver 0.0.0.0:PORT_NO
+ ```
 
 # for windows
 
@@ -34,4 +42,6 @@ it is not fully completed from the frondend aspects but ( Cool and clean ui i me
 
 ### then run this
 
-```python manage.py runserver```
+```
+python manage.py runserver
+```
